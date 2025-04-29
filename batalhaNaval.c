@@ -24,9 +24,9 @@ int main() {
     printf(" Tabuleiro de batalha: \n");
     printf("\n");
 
-    for(int j = 0; j <= 9; j++) {
-        for(int i = 0; i <= 9; i++) {
-            printf("%d ", tabuleiro[j][i]);
+    for(int i = 0; i <= 9; i++) {
+        for(int j = 0; j <= 9; j++) {
+            printf("%d ", tabuleiro[i][j]);
         }
         printf("\n");
     }
